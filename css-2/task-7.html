@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      border: 5px dotted ;
+    }
+    .red{
+      background-color: red;
+      font-size: 100px;
+    }
+    #st{
+      font-size: 100px;
+      background-color: green;
+      position: static;
+    }
+    #re{
+      font-size: 100px;
+      background-color: green;
+      position: relative;
+      top: 30px;
+      right: -20px;
+    }
+    #ab{
+      font-size: 100px;
+      background-color: green;
+      position: absolute;
+      top: 450px;
+      right: 740px;
+      
+    }
+  </style>
+</head>
+<body>
+  <h1>pstion static</h1>
+  <div>
+    <span class="red">1</span>
+    <span id="st">2</span>
+    <span class="red">3</span>
+    <span class="red">4</span>
+  </div>
+  <h1>pstion relative</h1>
+  <div>
+    <span class="red">1</span>
+    <span id="re">2</span>
+    <span class="red">3</span>
+    <span class="red">4</span>
+  </div>
+  <h1>pstion absolute</h1>
+  <div>
+    <span class="red">1</span>
+    <span id="ab">2</span>
+    <span class="red">3</span>
+    <span class="red">4</span>
+  </div>
+
+</body>
+</html>
